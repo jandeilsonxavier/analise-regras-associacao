@@ -1,11 +1,11 @@
 # Análise de Regras de Associação para Recomendação de Produtos
 
 ## Índice
-1. [Descrição](#descrição)
+1. [Descrição](#-descrição)
 2. [Dataset](#-dataset)
 3. [Ferramentas Utilizadas](#-ferramentas-utilizadas)
-4. [Metodologia](#metodologia)
-5. [Resultados](#Resultados)
+4. [Metodologia](#-metodologia)
+5. [Resultados](#-resultados)
 6. [Como Usar](#como-usar)
 7. [Documentação](#documentação)
 
