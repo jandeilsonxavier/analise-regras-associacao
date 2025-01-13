@@ -5,8 +5,8 @@
 2. [Dataset](#-dataset)
 3. [Ferramentas Utilizadas](#-ferramentas-utilizadas)
 4. [Metodologia](#-metodologia)
-5. [Resultados](#-resultados)
-6. [Prróximos Passos](#-proximos-passos)
+5. [Result](#resultados)
+6. [Próximos Passos](#-próximos-passos)
 7. [Como Usar](#-como-executar)
 
 ## 📋 Descrição
@@ -105,7 +105,7 @@ Fonte: Dataset público no Kaggle referenta a vendas em uma Loja virtual. [link]
 4. **Implementação de Sistema Simples**
 - Script para sugerir os 5 principais produtos relacionados ao item selecionado.
 
-## 🛠️ Resultados 
+## Resultados
 A análise revelou que 96% dos pedidos realizados na loja, durante o período analizado, contêm apenas um produto. Esse dado é um indicador claro do comportamento de compra predominante dos clientes, que tendem a adquirir itens de forma isolada. Essa característica explica os baixos valores de suporte e confiança observados nas associações entre produtos, já que a robabilidade de produtos serem comprados juntos é limitada pela ausência de itens adicionais na maioria dos pedidos.
 
 | Qtd. Itens|Qtd. Pedidos |Porcentagem|
