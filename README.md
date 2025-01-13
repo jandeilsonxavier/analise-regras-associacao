@@ -5,7 +5,7 @@
 2. [Dataset](#-dataset)
 3. [Ferramentas Utilizadas](#-ferramentas-utilizadas)
 4. [Metodologia](#-metodologia)
-5. [Result](#resultados)
+5. [Resultados](#resultados)
 6. [Próximos Passos](#-próximos-passos)
 7. [Como Usar](#-como-executar)
 
