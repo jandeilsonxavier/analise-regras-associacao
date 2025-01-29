@@ -85,7 +85,7 @@ Se um conjunto de itens é frequente, todos os seus subconjuntos também são fr
      Isso indica uma associação positiva.
 
 ## 📂 Dataset
-Fonte: Dataset público no Kaggle referenta a vendas em uma Loja virtual. [link](https://www.kaggle.com/datasets/vincentcornlius/sales-orders?select=sales_data.csv)
+Fonte: Dataset público no Kaggle referente a vendas em uma Loja virtual. [link](https://www.kaggle.com/datasets/vincentcornlius/sales-orders?select=sales_data.csv)
 
 ## 🔧 Ferramentas Utilizadas
 - Python (Pandas, Mlxtend, TransactionEncoder)
@@ -146,5 +146,5 @@ pip install -r requirements.txt
 ```
 5. **Execute o script principal**
 ```bash
-python run.py
+streamlit run app.py
 ```

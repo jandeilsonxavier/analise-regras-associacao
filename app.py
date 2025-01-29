@@ -49,14 +49,14 @@ lift = regras_produto['lift'][0].astype(float).round(4)
 
 
 st.write(f'''**Explicaçao da primeira linha da tabela:**   
-        O valor do :red[suporte] = {suporte} indica que há uma probabilidade de :blue[{suporte*100:.2f}%] de os produtos 
-        :blue["{produto_para_analise}"] e :blue["{regras_produto['consequents'][0]}"] serem comprados juntos em relação ao total de vendas.''')
+        O valor do :blue[suporte] = {suporte} indica que há uma probabilidade de **{suporte*100:.2f}%** de os produtos 
+        **"{produto_para_analise}"** e **"{regras_produto['consequents'][0]}"** serem comprados juntos em relação ao total de vendas.''')
 
-st.write(f'''O valor da :red[confiança] = {confianca} indica que, sempre que o produto :blue["{produto_para_analise}"] é comprado, 
-        há uma probabilidade de :blue[{confianca*100:.2f}%] de que o produto :blue["{regras_produto['consequents'][0]}"] também seja comprado.''')
+st.write(f'''O valor da :blue[confiança] = {confianca} indica que, sempre que o produto **"{produto_para_analise}"** é comprado, 
+        há uma probabilidade de **{confianca*100:.2f}%** de que o produto **"{regras_produto['consequents'][0]}"** também seja comprado.''')
 
-st.write(f'''O valor do :red[lift] = {lift} indica que a compra do produto :blue["{produto_para_analise}"] aumenta em :blue[{lift:.2f}] vezes 
-        a probabilidade de o produto :blue["{regras_produto['consequents'][0]}"] ser comprado, em comparação com uma compra aleatória.''')
+st.write(f'''O valor do :blue[lift] = {lift} indica que a compra do produto **"{produto_para_analise}"** aumenta em **{lift:.2f}** vezes 
+        a probabilidade de o produto **"{regras_produto['consequents'][0]}"** ser comprado, em comparação com uma compra aleatória.''')
 
 st.divider()
 
