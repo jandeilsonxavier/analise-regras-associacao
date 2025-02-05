@@ -47,7 +47,6 @@ suporte = regras_produto['support'][0].astype(float).round(4)
 confianca = regras_produto['confidence'][0].astype(float).round(4)
 lift = regras_produto['lift'][0].astype(float).round(4)
 
-
 st.write(f'''**Explicaçao da primeira linha da tabela:**   
         O valor do :blue[suporte] = {suporte} indica que há uma probabilidade de **{suporte*100:.2f}%** de os produtos 
         **"{produto_para_analise}"** e **"{regras_produto['consequents'][0]}"** serem comprados juntos em relação ao total de vendas.''')
