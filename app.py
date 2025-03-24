@@ -83,4 +83,4 @@ st.dataframe(produtos_por_pedido)
 st.write(f'''A análise revelou que :blue[96%] dos pedidos realizados na loja contêm apenas um produto. Esse dado é um indicador claro 
          do comportamento de compra predominante dos clientes, que tendem a adquirir itens de forma isolada.   
          Essa característica explica os baixos valores de suporte e confiança observados nas associações entre produtos, 
-         já que a probabilidade de produtos serem comprados juntos é limitada pela ausência de itens adicionais na maioria dos pedidos.''')
+         já que a probabilidade de produtos serem comprados juntos é limitada pela ausência de itens adicionais na maioria dos pedidos. ''')
